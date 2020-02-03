@@ -1,7 +1,7 @@
 sudo apt-get update
 sudo apt-get upgrade
 
-//install dependencies
+//install dependencies (all done previously)
 sudo apt-get install build-essential cmake pkg-config
 sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev
 sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
@@ -41,3 +41,7 @@ sudo reboot
 //test in python
 import cv2
 cv2.__version__
+
+
+//pip3 
+pip3 install opencv-python
